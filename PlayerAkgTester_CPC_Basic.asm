@@ -5,14 +5,13 @@
         ;buildsna
         ;bankset 0
 
-        org #4000
+        org #7000
 
         ;Hooks to call the player easily in Basic.
         jp Start
         jp StartMusic
         jp StopMusic
 		jp EjectMusic
-
 		
 Start:  equ $
 
