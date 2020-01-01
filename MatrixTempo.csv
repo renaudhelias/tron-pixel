@@ -1,0 +1,25 @@
+Track;Piste;Tempo;Unité (note);Nb blocs;Taille bloc (hexa);Taille bloc;Vitesse;Speed (hexa);Effet;Fin de track;vit vs tailBloc;;div3;div1;div2;div4;div8;
+0;1;60;croche;6;8;8;24;18;0;2F;60;OK;;;4;;;OK
+1;2;120;noir;4;4;4;24;18;0;F;120;OK;;4;;;;OK
+2;3;120;double croche;8;10;16;6;6;1;7F;120;OK;;;;4;;OK
+3;4;120;double croche;8;10;16;6;6;1;7F;120;OK;;;;4;;OK
+4;5;120;double croche;8;10;16;6;6;1;7F;120;OK;;;;4;;OK
+5;6;120;noir;16;4;4;24;18;0;3F;120;OK;;4;;;;OK
+6;7;90;croche;16;8;8;16;10;2;7F;90;OK;;;4;;;OK
+7;8;90;croche;9;8;8;16;10;2;47;90;OK;;;4;;;OK
+8;9;120;noir;4;4;4;24;18;0;F;120;OK;;4;;;;OK
+9;10;120;double croche;8;10;16;6;6;1;7F;120;OK;;;;4;;OK
+A;11;120;noir;8;4;4;24;18;0;1F;120;OK;;4;;;;OK
+B;12;120;1/3 noir;12;C;12;8;8;3;53;120;OK;4;;;;;OK
+C;13;120;1/3 noir;5;C;12;8;8;3;3B;120;OK;4;;;;;OK
+D;14;120;noir;8;4;4;24;18;0;1F;120;OK;;4;;;;OK
+E;15*;120;croche;4;8;8;12;C;4;1F;120;OK;;;4;;;OK
+F;16*;120;croche;4;8;8;12;C;4;1F;120;OK;;;4;;;OK
+10;17*;120;croche;4;8;8;12;C;4;1F;120;OK;;;4;;;OK
+11;18;120;croche;13;8;8;12;C;4;67;120;OK;;;4;;;OK
+12;19;90;double croche;5;10;16;8;8;5;4F;90;OK;;;;4;;OK
+13;20;90;triple croche;1;20;32;4;4;6;1F;90;OK;;;;;4;OK
+14;21;90;double croche;7;10;16;8;8;5;6F;90;OK;;;;4;;OK
+15;22;90;double croche;4;10;16;8;8;5;3F;90;OK;;;;4;;OK
+16;23;90;triple croche;3;20;32;4;4;6;5F;90;OK;;;;;4;OK
+17;24;90;croche;5;8;8;16;10;2;27;90;OK;;;4;;;OK
