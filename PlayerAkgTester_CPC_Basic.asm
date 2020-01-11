@@ -5,7 +5,7 @@
         ;buildsna
         ;bankset 0
 
-        org #7000
+        org #6000
 
         ;Hooks to call the player easily in Basic.
         jp Start
@@ -19,8 +19,9 @@ Start:  equ $
         ;ld hl,#c9fb
         ;ld (#38),hl
 		;ld sp,#38
-
-        ld hl,Music_Start
+		
+		;Music_Start
+        ld hl,#7000
         xor a                   ;Subsong 0.
         call PLY_AKG_Init
 
@@ -223,7 +224,7 @@ ret
         ;ret
 
 
-Music_Start:
+;Music_Start:
         ;Include here the Player Configuration source of the songs (you can generate them with AT2 while exporting the songs).
         ;If you don't have any, the player will use a default Configuration (full code used), which may not be optimal.
         ;If you have several songs, include all their configuration here, their flags will stack up!
@@ -231,8 +232,8 @@ Music_Start:
         ;include "../resources/Music_AHarmlessGrenade_playerconfig.asm"
         
         ;include "../resources/Music_AHarmlessGrenade.asm"
-		include "../resources/Music_Molusk.asm"
-Music_End:
+;		include "../resources/Music_Molusk.asm"
+;Music_End:
 
 Main_Player_Start:
         ;Selects the hardware. Not mandatory on CPC, as it is default.
