@@ -6,12 +6,12 @@ Track;Piste;Tempo;Unité (note);Nb blocs;Taille bloc (hexa);Taille bloc;Vitesse;
 2;3;120;triple croche;4;20;32;3;3;7;7F;;;;;;;;;REPLACE
 3;3;120;triple croche;4;20;32;3;3;7;7F;;;;;;;;;NEW
 3X;4;120;double croche;8;10;16;6;6;1;7F;120;OK;;;;4;;OK;KO
-4;4;120;double croche;8;10;16;6;6;1;3F;;;;;;;;;DECALE 6
-4X;5;120;double croche;8;10;16;6;6;1;7F;120;OK;;;;4;;OK;KO
-5*;~5;120;noir;4;4;4;24;18;0;F;;;;;;;;;NEW
-6*;~5;120;noir;4;4;4;24;18;0;F;;;;;;;;;NEW
-7*;~5;120;noir;4;4;4;24;18;0;F;;;;;;;;;NEW
-5X;6;120;noir;16;4;4;24;18;0;3F;120;OK;;4;;;;OK;EFFACE 6
+4;4;120;double croche;8;10;16;6;6;1;3F;;;;;;;;;REPLACE
+4X;5;120;double croche;8;10;16;6;6;1;7F;120;OK;;;;4;;OK;EFFACE
+5*;~5;120;noir;4;4;4;24;18;0;F;;;;;;;;;NEW 6
+6*;~5;120;noir;4;4;4;24;18;0;F;;;;;;;;;NEW 6
+7*;~5;120;noir;4;4;4;24;18;0;F;;;;;;;;;NEW 6
+5X;6;120;noir;16;4;4;24;18;0;3F;120;OK;;4;;;;OK;KO 6
 8;7;90;croche;16;8;8;16;10;2;7F;90;OK;;;4;;;OK;OK (sauf fin)
 9;4;120;double croche;8;10;16;6;6;1;7F;;;;;;;;;NEW (+long)
 A;5;120;noir;4;4;4;24;18;0;F;;;;;;;;;NEW
